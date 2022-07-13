@@ -1,6 +1,6 @@
-baseURL: "https://jamesptran.netlify.app"
+baseURL: "https://jptran.netlify.app"
 languageCode: "en-us"
-title: "Phuc Tran"
+title: "About me"
 theme: hugo-profile
 
 Paginate: 3
