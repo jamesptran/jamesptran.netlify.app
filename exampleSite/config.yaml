@@ -144,7 +144,7 @@ params:
         info:
           enable: true
           content: I am working as a software engineer for Amazon.
-        content:
+        content: |
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
@@ -158,7 +158,7 @@ params:
         info:
           enable: true
           content: I worked as an SDET for more than one year in Verizon.
-        content:
+        content: |
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
