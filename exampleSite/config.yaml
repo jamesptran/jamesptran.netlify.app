@@ -102,13 +102,13 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/images/hero.svg"
+      url: "/resume.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/jamesptran
-        - icon: fab fa-twitter
-          url: https://example.com
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/phucjtran/
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -174,7 +174,12 @@ params:
           # url: "https://example.org"
         date: "2020 - 2022"
         GPA: "3.97 out of 4.0"
-      - title: "Bachelor of Science in Computer Science"
+        content: |-
+        During this period I worked on various paid research and development project for professors and studies at UC Irvine. Some highlights include.
+        - Developed new features for ZotCare, an IoT platform that is used for aggregating watch data by 20+ different graduate studies across different disciplines.
+        - Developed a specialized native iOS application to serve as a front end for ZotCare and Empatica E4 device for a psychology study.
+        - Spearheaded the initial development effort for Personicle, a multimodal open-source platform to monitor health biomarkers for building disease models and data aggregation.
+      - title: "Bachelor of Arts in Computer Science"
         school:
           name: "Earlham College"
           # url: "https://example.org"
@@ -263,15 +268,12 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+#     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: jamesptran96@gmail.com
     btnName: Mail me
 
   footer:
     recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/jamesptran
+      linkedin: https://www.linkedin.com/in/phucjtran/
