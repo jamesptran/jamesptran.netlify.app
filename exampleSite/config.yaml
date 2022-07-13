@@ -61,24 +61,21 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
   color:
+#     textColor:
+#     secondaryTextColor:
+#     backgroundColor:
+#     secondaryBackgroundColor:
+#     primaryColor:
+#     secondaryColor:
+
     darkmode:
+#       textColor:
+#       secondaryTextColor:
       backgroundColor: #808080
+      secondaryBackgroundColor: #808080
+#       primaryColor:
+#       secondaryColor:
 
   # If you want to customize the menu, you can change it here
   # navbar:
@@ -201,7 +198,7 @@ params:
     items:
       - title: ARShow
         content: An augmented reality application to render furnitures realistically in your room.
-        image: /images/projects/converter.png
+        image: /images/projects/converter.jpg
         featured:
           name: Github
           link: https://github.com/jamesptran/ARShow
