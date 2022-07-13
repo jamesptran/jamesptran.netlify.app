@@ -91,8 +91,8 @@ params:
   #     disableAchievements: true
   #     disableContact: true
 
-  # About
-  about:
+  # Hero
+  hero:
     enable: true
     intro: "Hi, my name is"
     title: "Phuc Tran."
@@ -126,11 +126,6 @@ params:
         company: "Amazon"
         companyUrl: "https://aws.amazon.com/"
         date: "Jul 2022 - present"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        # content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
         info:
           enable: true
           content: I am working as a software engineer for Amazon.
@@ -142,9 +137,6 @@ params:
         company: "Verizon"
         companyUrl: "https://www.verizon.com"
         date: "Jul 2018 - Aug 2020"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
         info:
           enable: true
           content: I worked as an SDET for more than one year in Verizon.
