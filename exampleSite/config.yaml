@@ -1,6 +1,6 @@
 baseURL: "https://jptran.netlify.app"
 languageCode: "en-us"
-title: "About me"
+title: "Phuc Tran"
 theme: hugo-profile
 
 Paginate: 3
@@ -45,8 +45,8 @@ markup:
     #   weight: 2
 
 params:
-  title: "Phuc Tran"
-  description: About myself
+  title: "About me"
+  # description: About myself
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
