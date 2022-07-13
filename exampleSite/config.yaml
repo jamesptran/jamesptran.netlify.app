@@ -98,20 +98,20 @@ params:
     title: "Phuc Tran."
     # subtitle: "I am a full-stack software engineer"
     content: "I am a full-stack software developer with a passion for backend and mobile app development. I have background in computer science and economics. I am currently working as a software engineer at Amazon near Thousand Oaks, CA."
-    image: /images/hero.svg
+    image: /images/profile.jpg
     button:
       enable: true
       name: "Resume"
       url: "/resume.pdf"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fa-brands fa-github-square
+        - icon: fab fa-github-square
           url: https://github.com/jamesptran
-        - icon: fa-brands fa-linkedin
+        - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/phucjtran
-        - icon: fa-brands fa-instagram-square
+        - icon: fab fa-instagram-square
           url: https://www.instagram.com/jamesptran96
-        - icon: fa-brands fa-facebook-square
+        - icon: fab fa-facebook-square
           url: https://www.facebook.com/jamesptran96
 #       customIcons:
 #         - icon: /fav.png
