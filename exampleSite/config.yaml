@@ -105,13 +105,13 @@ params:
       url: "/resume.pdf"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github-square
+        - icon: fab fa-github
           url: https://github.com/jamesptran
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/phucjtran
-        - icon: fab fa-instagram-square
+        - icon: fab fa-instagram
           url: https://www.instagram.com/jamesptran96
-        - icon: fab fa-facebook-square
+        - icon: fab fa-facebook
           url: https://www.facebook.com/jamesptran96
 #       customIcons:
 #         - icon: /fav.png
