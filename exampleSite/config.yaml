@@ -96,8 +96,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Phuc Tran."
-    subtitle: "I am a full-stack software engineer"
-    content: ""
+    # subtitle: "I am a full-stack software engineer"
+    content: "I am a full-stack software developer with a passion for backend and mobile app development. I have background in computer science and economics. I am currently working as a software engineer at Amazon near Thousand Oaks, CA."
     image: /images/hero.svg
     button:
       enable: true
@@ -105,13 +105,17 @@ params:
       url: "/resume.pdf"
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
+        - icon: fa-brands fa-github-square
           url: https://github.com/jamesptran
-        - icon: fab fa-linkedin-in
-          url: https://www.linkedin.com/in/phucjtran/
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fa-brands fa-linkedin
+          url: https://www.linkedin.com/in/phucjtran
+        - icon: fa-brands fa-instagram-square
+          url: https://www.instagram.com/jamesptran96
+        - icon: fa-brands fa-facebook-square
+          url: https://www.facebook.com/jamesptran96
+#       customIcons:
+#         - icon: /fav.png
+#           url: "https://example.com"
 
   # About
   about:
@@ -268,12 +272,14 @@ params:
   #Contact
   contact:
     enable: true
-#     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Just send me an email and I’ll try my best to get back to you!
     email: jamesptran96@gmail.com
-    btnName: Mail me
+    btnName: Email
 
   footer:
     recentPosts: false
     socialNetworks:
       github: https://github.com/jamesptran
-      linkedin: https://www.linkedin.com/in/phucjtran/
+      linkedin: https://www.linkedin.com/in/phucjtran
+      instagram: https://www.instagram.com/jamesptran96
+      facebook: https://www.facebook.com/jamesptran96
