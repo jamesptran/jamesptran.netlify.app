@@ -126,9 +126,6 @@ params:
         company: "Amazon"
         companyUrl: "https://aws.amazon.com/"
         date: "Jul 2022 - present"
-        info:
-          enable: true
-          content: I am working as a software engineer for Amazon.
         content: |
           - Developing applications for client from scratch.
           - Designing and matching the client requests.
@@ -137,9 +134,6 @@ params:
         company: "Verizon"
         companyUrl: "https://www.verizon.com"
         date: "Jul 2018 - Aug 2020"
-        info:
-          enable: true
-          content: I worked as an SDET for more than one year in Verizon.
         content: |
           - Developed and maintained an embedded system simulator for server scalability tests to simulate complex device behavior for up to 200,000 devices using both MQTT and LWM2M communication protocols.
           - Maintained, monitored, and improved test automation, and the CI/CD pipeline ran through Jenkins automation.
@@ -200,52 +194,47 @@ params:
 
   # projects
   projects:
-    enable: false
+    enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: ARShow
+        content: An augmented reality application to render furnitures realistically in your room.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+          name: Github
+          link: https://github.com/jamesptran/ARShow
+        badges:
+          - "Swift"
+          - "ARKit"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/jamesptran/ARShow
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Dark Space
+        content: A 2D space shooter arcade game which featured 9 different levels and 6 different enemy types.
         image: /images/projects/converter.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
+          name: AppAdvice
+          link: https://appadvice.com/app/dark-space-chess-battalion/1309936967
+        badges:
+          - "Swift"
+          - "SpriteKit"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/jamesptran/DarkSpace
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: E4Link Empatica Research App
+        content: An application which collects data from Empatica E4 devices and sync it with backend server.
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+#         featured:
+#           name: Demo V2
+#           link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Swift"
+          - "Python"
+          - "MongoDB"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/amyxjhuang/research-app
 
   #Contact
   contact:
