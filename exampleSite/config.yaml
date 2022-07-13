@@ -91,8 +91,8 @@ params:
   #     disableAchievements: true
   #     disableContact: true
 
-  # Hero
-  hero:
+  # About
+  about:
     enable: true
     intro: "Hi, my name is"
     title: "Phuc Tran."
@@ -117,20 +117,6 @@ params:
 #         - icon: /fav.png
 #           url: "https://example.com"
 
-  # About
-  about:
-    enable: false
-    title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      I am a full-stack software developer with a passion for iOS development. I have a background in computer science and economics. I am currently working as a software developer at Amazon near Los Angeles, CA. 
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "Swift"
-        - "Java"
-        - "Python"
 
   # Experience
   experience:
