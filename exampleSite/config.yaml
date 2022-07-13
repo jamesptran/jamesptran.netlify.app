@@ -45,7 +45,7 @@ markup:
     #   weight: 2
 
 params:
-  title: "About me"
+  title: "Phuc Tran"
   description: About myself
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -94,7 +94,7 @@ params:
   # Hero
   hero:
     enable: true
-    # intro: "Hi, my name is"
+    intro: "Hi, my name is"
     title: "Phuc Tran."
     subtitle: "I am a full-stack software engineer"
     content: ""
