@@ -51,8 +51,8 @@ params:
   favicon: "/fav.png"
 
   theme:
-    disableThemeToggle: true
-    defaultTheme: "dark" # dark
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
