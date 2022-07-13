@@ -175,10 +175,10 @@ params:
         date: "2020 - 2022"
         GPA: "3.97 out of 4.0"
         content: |-
-        During this period I worked on various paid research and development project for professors and studies at UC Irvine. Some highlights include.
-        - Developed new features for ZotCare, an IoT platform that is used for aggregating watch data by 20+ different graduate studies across different disciplines.
-        - Developed a specialized native iOS application to serve as a front end for ZotCare and Empatica E4 device for a psychology study.
-        - Spearheaded the initial development effort for Personicle, a multimodal open-source platform to monitor health biomarkers for building disease models and data aggregation.
+          During this period I worked on various paid research and development project for professors and studies at UC Irvine. Some highlights include.
+          - Developed new features for ZotCare, an IoT platform that is used for aggregating watch data by 20+ different graduate studies across different disciplines.
+          - Developed a specialized native iOS application to serve as a front end for ZotCare and Empatica E4 device for a psychology study.
+          - Spearheaded the initial development effort for Personicle, a multimodal open-source platform to monitor health biomarkers for building disease models and data aggregation.
       - title: "Bachelor of Arts in Computer Science"
         school:
           name: "Earlham College"
