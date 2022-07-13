@@ -51,7 +51,7 @@ params:
   favicon: "/fav.png"
 
   theme:
-    disableThemeToggle: false
+    disableThemeToggle: true
     defaultTheme: "light" # dark
 
   # font:
@@ -61,7 +61,7 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  color:
+#   color:
 #     textColor:
 #     secondaryTextColor:
 #     backgroundColor:
@@ -69,11 +69,11 @@ params:
 #     primaryColor:
 #     secondaryColor:
 
-    darkmode:
+#     darkmode:
 #       textColor:
 #       secondaryTextColor:
-      backgroundColor: #808080
-      secondaryBackgroundColor: #808080
+#       backgroundColor: #808080
+#       secondaryBackgroundColor: #808080
 #       primaryColor:
 #       secondaryColor:
 
