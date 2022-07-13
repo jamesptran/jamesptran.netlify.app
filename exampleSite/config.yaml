@@ -92,21 +92,21 @@ params:
   #     disableContact: true
 
   # Hero
-  hero:
-    enable: true
-    intro: "Hi, my name is"
-    title: "Phuc."
-    subtitle: "I am a software engineer"
-    content: ""
-    image: /images/hero.svg
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/jamesptran
+#   hero:
+#     enable: true
+#     intro: "Hi, my name is"
+#     title: "Phuc."
+#     subtitle: "I am a software engineer"
+#     content: ""
+#     image: /images/hero.svg
+#     button:
+#       enable: true
+#       name: "Resume"
+#       url: "#"
+#     socialLinks:
+#       fontAwesomeIcons:
+#         - icon: fab fa-github
+#           url: https://github.com/jamesptran
 #         - icon: fab fa-twitter
 #           url: https://example.com
 #       customIcons:
@@ -117,7 +117,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    # image: "/images/me.png"
+    image: "/images/me.png"
     content: |-
       I am a full-stack software developer with a passion for iOS development. I have a background in computer science and economics. I am currently working as a software developer at Amazon near Los Angeles, CA. 
     skills:
@@ -132,8 +132,8 @@ params:
   experience:
     enable: true
     items:
-      - job: "Remote Software Engineer"
-        company: "Amazon AWS"
+      - job: "Software Engineer"
+        company: "Amazon"
         companyUrl: "https://aws.amazon.com/"
         date: "Jul 2022 - present"
         featuredLink:
@@ -145,8 +145,8 @@ params:
           enable: true
           content: I am working as a software engineer for Amazon.
         content: |
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developing applications for client from scratch.
+          - Designing and matching the client requests.
 
       - job: "Software Engineer in Test"
         company: "Verizon"
@@ -159,8 +159,9 @@ params:
           enable: true
           content: I worked as an SDET for more than one year in Verizon.
         content: |
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developed and maintained an embedded system simulator for server scalability tests to simulate complex device behavior for up to 200,000 devices using both MQTT and LWM2M communication protocols.
+          - Maintained, monitored, and improved test automation, and the CI/CD pipeline ran through Jenkins automation.
+          - Debugged and resolved bugs in a full-stack microservice application with Apache Kafka, AWS Lambda, Cassandra, Aurora, Spark, and other custom-built services.
 
   # Education
   education:
@@ -267,7 +268,7 @@ params:
     btnName: Mail me
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
