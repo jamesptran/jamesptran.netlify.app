@@ -76,6 +76,9 @@ params:
   #     secondaryBackgroundColor:
   #     primaryColor:
   #     secondaryColor:
+  color:
+    darkmode:
+      backgroundColor: #808080
 
   # If you want to customize the menu, you can change it here
   # navbar:
@@ -198,7 +201,7 @@ params:
     items:
       - title: ARShow
         content: An augmented reality application to render furnitures realistically in your room.
-        image: /images/projects/profile.png
+        image: /images/projects/converter.png
         featured:
           name: Github
           link: https://github.com/jamesptran/ARShow
@@ -224,10 +227,7 @@ params:
 
       - title: E4Link Empatica Research App
         content: An application which collects data from Empatica E4 devices and sync it with backend server.
-        image: /images/projects/profile2.jpg
-#         featured:
-#           name: Demo V2
-#           link: https://hugo-profile-2.netlify.app
+        image: /images/projects/converter.jpg
         badges:
           - "Swift"
           - "Python"
